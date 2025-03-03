@@ -1,0 +1,64 @@
+html{
+    background: rgb(255, 246, 234);
+    font-family: "Noto Sans", sans-serif;
+    margin: 10px;
+}
+
+header{
+    background: rgb(255, 250, 225);
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 2em auto;
+    width: 60vw;
+    border: rgb(255, 210, 126) 2px solid;
+}
+
+.description{
+    margin-top: 40px;
+}
+
+.bad__examples{
+    display: flexbox;
+    flex-direction: row;
+}
+
+.ux__bad {
+    position: relative;
+    background-color: #f4f9fa;
+    padding: 15px;
+    border: rgb(159, 214, 226) 5px dotted;
+    border-radius: 5px; 
+    width: 50vw;
+    margin: auto;
+}
+
+span{
+    font-weight: bold;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+img{
+    width:45vw;
+    border: rgb(160, 177, 206) 3px solid;
+    border-radius:5px;
+    margin: 0 2em;
+}
+
+img:hover{
+    box-shadow: rgba(43, 43, 47, 0.458) 0px 7px 29px 0px;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: rgb(164, 62, 62);
+}

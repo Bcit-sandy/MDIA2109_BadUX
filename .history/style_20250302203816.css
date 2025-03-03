@@ -1,7 +1,7 @@
 html{
-    background: rgb(254, 244, 231);
+    background: rgb(228, 210, 187);
     font-family: "Noto Sans", sans-serif;
-    margin: 10px 10px 0 10px;
+    margin: 10px;
 }
 
 header{
@@ -26,9 +26,9 @@ header{
 
 .ux__bad {
     position: relative;
-    background-color: 	#faf5ef;
+    background-color: #f4f9fa;
     padding: 15px;
-    border:rgba(108, 70, 0, 0.306) 5px dotted;
+    border: rgb(159, 214, 226) 5px dotted;
     border-radius: 5px; 
     width: 50vw;
     margin: auto;
@@ -44,18 +44,17 @@ li{
 
 img{
     width:45vw;
-    border: #8d7b68 3px solid;
+    border: rgb(160, 177, 206) 3px solid;
     border-radius:5px;
-    margin: 1em 2em;
+    margin: 0 2em;
 }
 
-
 img:hover{
-    box-shadow: #5b4f43 0px 7px 29px 0px;
+    box-shadow: rgba(43, 43, 47, 0.458) 0px 7px 29px 0px;
 }
 
 .link:visited{
-    color: rgb(118, 68, 43);
+    color: rgb(92, 138, 50);
 }
 
 .link:hover{
@@ -64,15 +63,4 @@ img:hover{
 
 .link:active{
     color: yellow;
-}
-
-.buttom{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: #5b4f43;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 20px 0 0 0;
-    background: #8d7b684d;
 }
